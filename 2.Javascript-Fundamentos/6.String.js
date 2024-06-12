@@ -7,3 +7,16 @@ console.log(escola.substring(0,2)) //Especifica até onde será mostrada a strin
 console.log((escola).concat(" A melhor escola de programação do ").concat("MUUUNDO!")) //Concatena itens
 console.log(escola.replace(4, 5)) //Substitui um item por outro
 console.log("Ana, Maria,Pedro".split(",")) //Transforma em um array
+
+
+
+const nome = "Rebeca"
+//Simples
+const concatena = 'Olá' + nome + '!'
+
+//Template
+const template = `
+    Olá
+${nome} !`
+
+console.log(concatena, template)
